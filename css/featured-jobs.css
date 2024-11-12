@@ -6,8 +6,8 @@
 
 .featured-jobs__button-arrow-wrapper {
   position: absolute;
-  right: 1066px;
-  top: 403px;
+  left: clamp(-96px, calc(-96px + (1340px - 100vw)), 0px);
+  top: 302px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,6 +66,7 @@
 .students-list {
   position: absolute;
   left: 95px;
+  left: clamp(95px, calc(95px + (1340px - 100vw)), 191px);
   top: 80px;
   display: flex;
   align-items: center;
@@ -279,7 +280,8 @@
 .students-list-wrapper__button {
   position: absolute;
   top: 636px;
-  left: 558px;
+  left: min(calc(100vw / 2), 558px);
+  transform: translateX(-50%);
   padding: 15px 35px;
   border: none;
   border-radius: 47px;
