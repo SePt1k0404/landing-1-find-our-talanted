@@ -19,3 +19,14 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.title {
+  font-family: Oswald;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.05em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

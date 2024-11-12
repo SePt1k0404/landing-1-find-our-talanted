@@ -1,0 +1,292 @@
+.featured-jobs__wrapper {
+  position: relative;
+  padding-bottom: 120px;
+  min-height: 787px;
+}
+
+.featured-jobs__button-arrow-wrapper {
+  position: absolute;
+  left: clamp(-96px, calc(-96px + (1340px - 100vw)), 0px);
+  top: 302px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.featured-jobs__arrow-button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 7px;
+}
+
+.featured-jobs__arrow-button.right {
+  background-color: rgba(249, 250, 255, 1);
+  transform: rotateZ(180deg);
+}
+
+.featured-jobs__arrow-button.left {
+  background-color: var(--color-action);
+}
+
+.featured-jobs__arrow-button-icon {
+  width: 31.45px;
+  height: 26.84px;
+  fill: #fff;
+}
+
+.featured-jobs__arrow-button.right > .featured-jobs__arrow-button-icon {
+  fill: var(--color-action);
+}
+
+.featured-jobs__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.featured-jobs__desc {
+  max-width: 543px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-text-second);
+}
+
+.students-list-wrapper {
+  position: relative;
+}
+
+.students-list {
+  position: absolute;
+  left: clamp(95px, calc(95px + (1340px - 100vw)), 191px);
+  top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 65px;
+}
+
+.students-list__card {
+  position: relative;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 47px 75px;
+  box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+  background-color: var(--color-background-main);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 300ms ease, background-color 300ms ease,
+    box-shadow 300ms ease;
+}
+
+.students-list__card:hover {
+  box-shadow: 0px 12px 30px 0px rgba(71, 71, 71, 0.15);
+  background-color: rgba(249, 250, 255, 1);
+  transform: translateY(-35px);
+}
+
+.student-list__student-img-wrapper {
+  margin: 0 auto;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 83px;
+  height: 83px;
+  background-color: rgba(254, 160, 107, 1);
+  border-radius: 50%;
+}
+
+.student-list__student-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.students-list__role {
+  margin-bottom: 16px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.students-list__team {
+  margin-bottom: 44px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.571;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(66, 56, 175, 1);
+}
+
+.students-list__salary-wrapper {
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9.8px;
+}
+
+.student-list__salary-icon {
+  width: 15.19px;
+  height: 18px;
+  fill: rgba(0, 0, 0, 1);
+}
+
+.students-list__salary-amount {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4375;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.students-list__salary-amount > span {
+  font-size: 14px;
+  color: var(--color-text-second);
+}
+
+.student-list__location-wrapper {
+  margin-bottom: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11.75px;
+}
+
+.student-list__location-icon {
+  width: 12.25px;
+  height: 17.68px;
+  padding-left: 1px;
+  fill: rgba(0, 0, 0, 1);
+}
+
+.student-list__location-text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+}
+
+.student-list__location-text {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4375;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.student-list__location-link {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4375;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-text-second);
+}
+
+.student-list__buttons-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-favorite {
+  padding-top: 5px;
+  width: 49px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  transition: background-color 300ms ease;
+}
+
+.students-list__card:hover .add-favorite {
+  background-color: var(--color-action);
+}
+
+.add-favorite__icon {
+  width: 24.5px;
+  height: 24.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--color-action);
+  transition: fill 300ms ease;
+}
+
+.students-list__card:hover .add-favorite__icon {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.apply-now {
+  padding: 15px 35px;
+  border: none;
+  border-radius: 47px;
+  background-color: rgba(56, 49, 139, 0.33);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(56, 49, 139, 1);
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+.students-list__card:hover .apply-now {
+  background-color: rgba(84, 76, 172, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.students-list-wrapper__button {
+  position: absolute;
+  top: 636px;
+  left: min(calc(100vw / 2), 558px);
+  transform: translateX(-50%);
+  padding: 15px 35px;
+  border: none;
+  border-radius: 47px;
+  background-color: rgba(84, 76, 172, 1);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(255, 255, 255, 1);
+  transition: background-color 300ms ease, color 300ms ease;
+}

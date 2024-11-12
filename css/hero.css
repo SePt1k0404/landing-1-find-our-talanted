@@ -11,7 +11,6 @@
 
 .hero__title {
   margin-bottom: 18px;
-
   font-family: Prompt;
   font-size: 45px;
   font-weight: 400;
@@ -20,7 +19,6 @@
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
   color: rgba(53, 52, 52, 1);
 }
 
@@ -31,14 +29,12 @@
 .hero__desc {
   margin-bottom: 30px;
   max-width: 543px;
-
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.02em;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
   color: var(--color-text-second);
 }
 
@@ -53,7 +49,6 @@
   padding: 12px 22px;
   background-color: rgba(84, 76, 172, 1);
   border-radius: 6px;
-
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.02em;
@@ -71,7 +66,6 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-
   font-size: 16px;
   line-height: 1.714;
   letter-spacing: 0.02em;
