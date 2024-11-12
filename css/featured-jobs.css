@@ -1,6 +1,6 @@
 .featured-jobs__wrapper {
   position: relative;
-  padding-bottom: 119px;
+  padding-bottom: 120px;
   min-height: 787px;
 }
 
@@ -48,7 +48,6 @@
 .featured-jobs__desc {
   max-width: 543px;
   margin: 0 auto;
-
   font-size: 14px;
   font-weight: 400;
   line-height: 1.714;
@@ -65,7 +64,6 @@
 
 .students-list {
   position: absolute;
-  left: 95px;
   left: clamp(95px, calc(95px + (1340px - 100vw)), 191px);
   top: 80px;
   display: flex;
@@ -81,12 +79,10 @@
   flex-direction: column;
   align-items: center;
   padding: 47px 75px;
-
   box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
   background-color: var(--color-background-main);
   border-radius: 20px;
   cursor: pointer;
-
   transition: transform 300ms ease, background-color 300ms ease,
     box-shadow 300ms ease;
 }
@@ -98,7 +94,8 @@
 }
 
 .student-list__student-img-wrapper {
-  margin: 0 auto 45px;
+  margin: 0 auto;
+  margin-bottom: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,7 +113,6 @@
 
 .students-list__role {
   margin-bottom: 16px;
-
   font-family: Open Sans;
   font-size: 20px;
   font-weight: 400;
@@ -129,7 +125,6 @@
 
 .students-list__team {
   margin-bottom: 44px;
-
   font-family: Open Sans;
   font-size: 14px;
   font-weight: 400;
@@ -143,7 +138,6 @@
 
 .students-list__salary-wrapper {
   margin-bottom: 14px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -259,7 +253,6 @@
   border: none;
   border-radius: 47px;
   background-color: rgba(56, 49, 139, 0.33);
-
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -286,7 +279,6 @@
   border: none;
   border-radius: 47px;
   background-color: rgba(84, 76, 172, 1);
-
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;

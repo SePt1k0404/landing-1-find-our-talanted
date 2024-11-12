@@ -100,7 +100,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   border: none;
   border-radius: 50%;
   background-color: rgba(192, 194, 248, 0.22);
@@ -127,7 +126,6 @@
   align-items: center;
   justify-content: center;
   gap: 4px;
-
   font-size: 16px;
   line-height: 4.429;
   letter-spacing: 0.02em;
