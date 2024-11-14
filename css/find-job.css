@@ -115,3 +115,27 @@
   width: 17px;
   height: 10px;
 }
+
+@media (max-width: 768px) {
+  .companies-list {
+    justify-content: center;
+  }
+
+  .find-job__main-content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .find-job__text-content {
+    width: 100%;
+  }
+
+  .road-map {
+    max-width: none;
+  }
+
+  .find-job__img-thumb {
+    align-self: center;
+    max-width: none;
+  }
+}

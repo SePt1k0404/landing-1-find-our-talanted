@@ -200,3 +200,25 @@
   width: 42.88px;
   height: 42.97px;
 }
+
+@media (max-width: 768px) {
+  .meaning-card {
+    flex-direction: column;
+  }
+
+  .meaning-card__img-thumb {
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .meaning-card__other-card-wrapper {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .meaning-card__other-card-img-wrapper {
+    align-self: flex-end;
+  }
+}

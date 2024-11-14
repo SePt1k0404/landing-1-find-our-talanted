@@ -84,3 +84,9 @@
   text-decoration-skip-ink: none;
   color: var(--color-text-second);
 }
+
+@media (max-width: 768px) {
+  .advantage-list {
+    flex-direction: column;
+  }
+}

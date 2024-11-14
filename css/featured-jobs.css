@@ -262,6 +262,7 @@
 
 .students-list-wrapper__button {
   position: absolute;
+  width: 152px;
   top: 636px;
   left: min(calc(100vw / 2), 558px);
   transform: translateX(-50%);
