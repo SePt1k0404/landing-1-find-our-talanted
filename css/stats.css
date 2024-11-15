@@ -41,3 +41,12 @@
   text-decoration-skip-ink: none;
   color: rgba(255, 255, 255, 1);
 }
+
+@media (max-width: 768px) {
+  .stats-list {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+  }
+}

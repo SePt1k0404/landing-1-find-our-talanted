@@ -87,3 +87,23 @@
 .hero__demo-button:hover .play-demo-icon-background {
   fill: var(--color-action);
 }
+
+@media (max-width: 1024px) {
+  .hero__wrapper {
+    background-image: linear-gradient(
+        rgba(250, 154, 29, 0.5),
+        rgba(250, 154, 29, 0.5)
+      ),
+      url("../images/hero/hero-background.png");
+  }
+
+  .hero__desc {
+    color: black;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero__wrapper {
+    background-position: center bottom;
+  }
+}

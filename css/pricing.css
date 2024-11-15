@@ -138,3 +138,13 @@
   background-color: rgba(84, 76, 172, 1);
   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 880px) {
+  .pricing-list {
+    flex-wrap: wrap;
+  }
+
+  .pricing-list__item {
+    flex-grow: 0;
+  }
+}

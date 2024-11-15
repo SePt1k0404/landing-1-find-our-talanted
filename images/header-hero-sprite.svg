@@ -14,5 +14,12 @@
 <path fill="#544cac" style="fill: var(--color2, #544cac)" d="M24.531 20.377l7.111 1.724-6.958 5.591-0.153-7.315z"></path>
 <path fill="#544cac" style="fill: var(--color2, #544cac)" d="M6.22 16.037l17.113-13.825 0.63 26.832-17.743-13.006z"></path>
 </symbol>
+<symbol id="icon-burger" viewBox="0 0 24 24">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> <path d="M4 18L20 18" stroke-width="2" stroke-linecap="round"/> <path d="M4 12L20 12" stroke-width="2" stroke-linecap="round"/> <path d="M4 6L20 6" stroke-width="2" stroke-linecap="round"/> </g>
+</symbol>
 </defs>
 </svg>
