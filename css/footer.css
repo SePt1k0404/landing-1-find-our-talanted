@@ -128,3 +128,33 @@
 .footer__main-content-wrapper .contacts-list__item:hover .contacts-list__icon {
   fill: #fff;
 }
+
+.footer__main-content-wrapper .burger-wrapper {
+  width: 30px;
+  height: 30px;
+  display: none;
+  margin-left: auto;
+}
+
+.footer__main-content-wrapper .burger-wrapper-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 880px) {
+  .footer__main-content-wrapper .nav-link-list {
+    display: none;
+  }
+  .footer__main-content-wrapper .contacts-list {
+    display: none;
+  }
+  .footer__main-content-wrapper .burger-wrapper {
+    display: block;
+  }
+
+  .link-list-wrapper > .link-list {
+    gap: 50px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
